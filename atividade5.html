@@ -1,0 +1,40 @@
+<style>
+    tr{
+        height: 45px;
+    }
+    td{
+        width: 250px;
+    }
+    .Text-Block{
+        height: 35px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14;
+        color: SlateGray
+    }
+    .Text-Box{
+        border: solid 1px;
+        height: 30px;
+        width: 150px;
+        font-size: 14;
+        color: slategrey;
+    }
+    button{
+        color: slategrey;
+        border-color: Azure;
+        cursor: pointer;
+    }
+</style>
+<script>
+    const aluno = {
+    matricula: 242424,
+    nome: 'lybia silva',
+    email: 'lybiasilva35@gmail.com'
+}
+
+function exibir() {
+    document.getElementById('txtMatricula').value = aluno.matricula
+    document.getElementById('txtNome').value = aluno.nome
+    document.getElementById('txtEmail').value = aluno.email
+}
+</script>
+</html>
